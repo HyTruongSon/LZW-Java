@@ -1,0 +1,30 @@
+Software: LZW
+Language: Java
+Author: Hy Truong Son
+Major: BSc. Computer Science
+Class: 2013 - 2016
+Institution: Eotvos Lorand University
+Email: sonpascal93@gmail.com
+Website: http://people.inf.elte.hu/hytruongson/
+Copyright 2015 (c) Hy Truong Son. All rights reserved.
+
+Overall
+-------
+LZW compression with my own binary file format definition.
+
+Usage
+-----
+* Compile:
+$ javac LZW.java
+$ javac LZWOldVersion.java
+
+* File compression, compress image file Solution.png to file compressed.png:
+$ java LZW -e Solution.png compressed.png
+[Process 0: Completed encryption process for one 7298-byte segment]
+
+* File decompression, decompress file compressed.png to decompressed.png:
+$ java LZW -d compressed.png decompressed.png
+
+Note:
+-----
+* Older implementation LZWOldVersion.java has the same API.
